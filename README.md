@@ -1,14 +1,26 @@
-# 🗺️ Mini Game Explorador (Python CLI)
+# 🗺️ Minijogo Explorador (Python CLI)
 
-Um projeto de lógica de matrizes onde o usuário controla um personagem em um mapa bidimensional via terminal.
+Minijogo em terminal onde você controla um personagem em um mapa 2D. O objetivo é encontrar o tesouro escondido, desviando de paredes e armadilhas.
 
-### 🧠 Conceitos Aplicados:
-* **Matrizes e Coordenadas:** Renderização de um mapa usando loops aninhados para eixos X e Y.
-* **Dicionários:** Armazenamento e manipulação de estado do jogador.
-* **Lógica de Movimentação:** Verificação de limites de mapa (bordas) para impedir que o jogador saia da área permitida.
+## ✅ Regras
+- Você controla o personagem (`👤`) em um mapa de `10x5`.
+- Existem **paredes** (`⬛`) que bloqueiam o movimento.
+- Existem **armadilhas escondidas**: se cair, é **GAME OVER**.
+- O **tesouro é escondido**: você vence ao chegar na posição certa.
 
-### 🕹️ Comandos:
-- `W`: Cima | `S`: Baixo | `A`: Esquerda | `D`: Direita | `Q`: Sair
+## 🕹️ Comandos
+- `W`: cima  
+- `S`: baixo  
+- `A`: esquerda  
+- `D`: direita  
+- `Q`: sair  
 
-### 🛠️ Tecnologias:
-- Python 3.x
+## ▶️ Como rodar
+Requisitos: Python 3.x
+
+## 🧠 Conceitos praticados
+- Matrizes e coordenadas (x, y)
+- Loops aninhados
+- Dicionários
+- Controle de fluxo
+- Validação de limites e colisão
